@@ -2,7 +2,7 @@ import EditTodo from "@/ui/EditTodo"
 
 const getTodoById = async (id) => {
   try {
-    const res = await fetch(`https://crud-app-restful-api-mongoose-git-main-yonatan-tokers-projects.vercel.app/${id}`, {cache: "no-store"});
+    const res = await fetch(`https://crud-app-restful-api-mongoose.vercel.app/${id}`, {cache: "no-store"});
     
     if (!res.ok) {
       throw new Error("Failed to fetch todo");
