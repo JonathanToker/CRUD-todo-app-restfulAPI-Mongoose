@@ -15,7 +15,6 @@ export async function GET() {
 }
 
 
-//http://localhost:3000/api/todos/?id=65673ccb2007e198f224327c this is what it'll look like
 export async function DELETE(request) {
   const id = request.nextUrl.searchParams.get('id');
   await connectToDB();

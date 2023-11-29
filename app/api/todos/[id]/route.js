@@ -12,9 +12,7 @@ export async function PUT(request, { params }) {
   //without schema validation, if want validation then .save()
   return NextResponse.json({message: "Todo updated"}, {status: 200});
 }
-//getting a single todo by Id:
 
-//http://localhost:3000/api/todos/65671e2b846bd310ffb69f0b that's what will be sent cuz we set it that way with the [id] dynamic route.
 export async function GET(request, {params}) {
   const {id} = params;
   await connectToDB();
