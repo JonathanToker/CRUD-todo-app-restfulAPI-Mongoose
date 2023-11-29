@@ -7,7 +7,7 @@ const RemoveBtn = ({ id }) => {
     // This will remove it with the id
     const confirmed = confirm("Are you sure you want to delete?");
     if (confirmed) {
-      const res = await fetch(`https://crud-app-restful-api-mongoose.vercel.app/api/todos?id=${id}`, {
+      const res = await fetch(`http://localhost:3000/api/todos?id=${id}`, {
         method: "DELETE",
       });
       if (res.ok) {

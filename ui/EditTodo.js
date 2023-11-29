@@ -11,7 +11,7 @@ const EditTopic = ({id, title, description}) => {
       return;
     }
     try {
-      const res = await fetch(`https://crud-app-restful-api-mongoose.vercel.app/api/todos/${id}`, {
+      const res = await fetch(`http://localhost:3000/api/todos/${id}`, {
         method: "PUT",
         headers: {
           "Content-type": "application/json"

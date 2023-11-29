@@ -14,7 +14,7 @@ const AddTopic = () => {
       return;
     }
     try {
-      const res = await fetch("https://crud-app-restful-api-mongoose.vercel.app/api/todos", {
+      const res = await fetch("http://localhost:3000/api/todos", {
         method: "POST",
         header: {
           "Content-type": "application/json",

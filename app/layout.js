@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Full Stack App',
-  description: 'A full stack app with MongoDB and Next.js',
+  description: 'A full stack app with Mongoose RESTful API and Next.js',
 }
 
 export default function RootLayout({ children }) {
