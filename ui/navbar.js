@@ -28,7 +28,7 @@ const MainNavbar = () => {
         <Link href="/addTodo" className="pl-2">
           Add Todo
         </Link>
-        <Link href="/" className="pl-2">
+        <Link href="https://github.com/YonatanToker/CRUD-todo-app-restfulAPI-Mongoose" className="pl-2">
           Source Code
         </Link>
       </NavbarCollapse>
